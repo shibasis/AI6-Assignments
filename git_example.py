@@ -12,7 +12,9 @@ def sigmoid(x):
 
 def tanh(x):
   # enter code below
+  return (1-(x**2))
   
 def relu(x):
   # entr code below
+  return (max(0,x))
   
